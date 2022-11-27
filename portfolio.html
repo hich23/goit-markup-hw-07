@@ -20,13 +20,11 @@
   <body>
     <header class="header">
       <div class="container header__container">
-
         <nav class="nav">
-          
-          <a href="./" class="logo">Web<span class="logo__header">Studio</span> </a>
+          <a href="./" class="logo">Web<span class="logo--dark">Studio</span> </a>
     
           <ul class="nav__list">
-            <li class="nav__item"><a href="./" class="nav__link ">Студія</a></li>
+            <li class="nav__item"><a href="./" class="nav__link">Студія</a></li>
             <li class="nav__item"><a href="./portfolio.html" class="nav__link nav__link--current">Портфоліо</a></li>
             <li class="nav__item"><a href="" class="nav__link">Контакти</a></li>
           </ul>
@@ -35,7 +33,7 @@
         <ul class="header__list">
           <li class="header__item">
             <a href="mailto:info@devstudio.com" class="header__link" target="_blank">
-              <svg class="header__icon" width="16" height="12">
+              <svg class="icon header--icon" width="16" height="12">
                 <use href="./images/icons.svg#icon-envelope"></use>
               </svg>
               info@devstudio.com
@@ -43,7 +41,7 @@
           </li>
           <li class="header__item">
             <a href="tel:+380961111111" class="header__link">
-              <svg class="header__icon" width="10" height="16">
+              <svg class="icon header--icon" width="10" height="16">
                 <use href="./images/icons.svg#icon-smartphone"></use>
               </svg>
               +38 096 111 11 11</a>
@@ -57,50 +55,50 @@
         <div class="container">
           <h1 class="projects visually-hidden">Перелік проектів</h1>
 
-          <ul class="projects-filter">
-            <li class="filter">
-              <button class="button" type="button">Усі</button>
+          <ul class="filter">
+            <li class="filter__item">
+              <button class="button filter__button" type="button">Усі</button>
             </li>
-            <li class="filter">
-              <button class="button" type="button">Веб-сайти</button>
+            <li class="filter__item">
+              <button class="button  filter__button" type="button">Веб-сайти</button>
             </li>
-            <li class="filter">
-              <button class="button" type="button">Додатки</button>
+            <li class="filter__item">
+              <button class="button filter__button" type="button">Додатки</button>
             </li>
-            <li class="filter">
-              <button class="button" type="button">Дизайн</button>
+            <li class="filter__item">
+              <button class="button filter__button" type="button">Дизайн</button>
             </li>
-            <li class="filter">
-              <button class="button" type="button">Маркетинг</button>
+            <li class="filter__item">
+              <button class="button filter__button" type="button">Маркетинг</button>
             </li>
           </ul>
 
-          <ul class="projects-list">
-            <li class="project-item">
-              <a href="" class="link">
-                <div class="overlay-box">
+          <ul class="projects__list">
+            <li class="project-card">
+              <a href="" class="project-card__link">
+                <div class="project-card__overlay-box">
                   <img src="./images/pf-img-1.jpg" alt="ноутбук" width="370" height="294" />
-                  <div class="overlay">
-                    <p class="overlay-text">
+                  <div class="project-card__overlay">
+                    <p class="project-card__overlay-text">
                       Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
                       Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
                       приватну особу.
                     </p>
                   </div>
                 </div>
-                <div class="card-text">
-                  <h2 class="title">Технокряк</h2>
-                  <p class="descr">Веб-сайт</p>
+                <div class="project-card__text">
+                  <h2 class="project-card__title">Технокряк</h2>
+                  <p class="project-card__descr">Веб-сайт</p>
                 </div>
               </a>
             </li>
 
-            <li class="project-item">
-              <a href="" class="link">
-                <div class="overlay-box">
+            <li class="project-card">
+              <a href="" class="project-card__link">
+                <div class="project-card__overlay-box">
                   <img src="./images/pf-img-2.jpg" alt="дизайн постеру " width="370" height="294" />
-                  <div class="overlay">
-                    <p class="overlay-text">
+                  <div class="project-card__overlay">
+                    <p class="project-card__overlay-text">
                       Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
                       Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
                       приватну особу.
@@ -108,24 +106,24 @@
                   </div>
                 </div>
 
-                <div class="card-text">
-                  <h2 class="title">Постер New Orlean vs Golden Star</h2>
-                  <p class="descr">Дизайн</p>
+                <div class="project-card__text">
+                  <h2 class="project-card__title">Постер New Orlean vs Golden Star</h2>
+                  <p class="project-card__descr">Дизайн</p>
                 </div>
               </a>
             </li>
 
-            <li class="project-item">
-              <a href="" class="link">
-                <div class="overlay-box">
+            <li class="project-card">
+              <a href="" class="project-card__link">
+                <div class="project-card__overlay-box">
                   <img
                     src="./images/pf-img-3.jpg"
                     alt="лого ресторану Seafood"
                     width="370"
                     height="294"
                   />
-                  <div class="overlay">
-                    <p class="overlay-text">
+                  <div class="project-card__overlay">
+                    <p class="project-card__overlay-text">
                       Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
                       Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
                       приватну особу.
@@ -133,19 +131,19 @@
                   </div>
                 </div>
 
-                <div class="card-text">
-                  <h2 class="title">Ресторан Seafood</h2>
-                  <p class="descr">Додаток</p>
+                <div class="project-card__text">
+                  <h2 class="project-card__title">Ресторан Seafood</h2>
+                  <p class="project-card__descr">Додаток</p>
                 </div>
               </a>
             </li>
 
-            <li class="project-item">
-              <a href="" class="link">
-                <div class="overlay-box">
+            <li class="project-card">
+              <a href="" class="project-card__link">
+                <div class="project-card__overlay-box">
                   <img src="./images/pf-img-4.jpg" alt="навушники" width="370" height="294" />
-                  <div class="overlay">
-                    <p class="overlay-text">
+                  <div class="project-card__overlay">
+                    <p class="project-card__overlay-text">
                       Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
                       Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
                       приватну особу.
@@ -153,19 +151,19 @@
                   </div>
                 </div>
 
-                <div class="card-text">
-                  <h2 class="title">Проєкт Prime</h2>
-                  <p class="descr">Маркетинг</p>
+                <div class="project-card__text">
+                  <h2 class="project-card__title">Проєкт Prime</h2>
+                  <p class="project-card__descr">Маркетинг</p>
                 </div>
               </a>
             </li>
 
-            <li class="project-item">
-              <a href="" class="link">
-                <div class="overlay-box">
+            <li class="project-card">
+              <a href="" class="project-card__link">
+                <div class="project-card__overlay-box">
                   <img src="./images/pf-img-5.jpg" alt="коробки" width="370" height="294" />
-                  <div class="overlay">
-                    <p class="overlay-text">
+                  <div class="project-card__overlay">
+                    <p class="project-card__overlay-text">
                       Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
                       Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
                       приватну особу.
@@ -173,19 +171,19 @@
                   </div>
                 </div>
 
-                <div class="card-text">
-                  <h2 class="title">Проєкт Boxes</h2>
-                  <p class="descr">Додаток</p>
+                <div class="project-card__text">
+                  <h2 class="project-card__title">Проєкт Boxes</h2>
+                  <p class="project-card__descr">Додаток</p>
                 </div>
               </a>
             </li>
 
-            <li class="project-item">
-              <a href="" class="link">
-                <div class="overlay-box">
+            <li class="project-card">
+              <a href="" class="project-card__link">
+                <div class="project-card__overlay-box">
                   <img src="./images/pf-img-6.jpg" alt="веб-сайт" width="370" height="294" />
-                  <div class="overlay">
-                    <p class="overlay-text">
+                  <div class="project-card__overlay">
+                    <p class="project-card__overlay-text">
                       Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
                       Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
                       приватну особу.
@@ -193,19 +191,19 @@
                   </div>
                 </div>
 
-                <div class="card-text">
-                  <h2 class="title">Inspiration has no Borders</h2>
-                  <p class="descr">Веб-сайт</p>
+                <div class="project-card__text">
+                  <h2 class="project-card__title">Inspiration has no Borders</h2>
+                  <p class="project-card__descr">Веб-сайт</p>
                 </div>
               </a>
             </li>
 
-            <li class="project-item">
-              <a href="" class="link">
-                <div class="overlay-box">
+            <li class="project-card">
+              <a href="" class="project-card__link">
+                <div class="project-card__overlay-box">
                   <img src="./images/pf-img-7.jpg" alt="книга" width="370" height="294" />
-                  <div class="overlay">
-                    <p class="overlay-text">
+                  <div class="project-card__overlay">
+                    <p class="project-card__overlay-text">
                       Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
                       Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
                       приватну особу.
@@ -213,19 +211,19 @@
                   </div>
                 </div>
 
-                <div class="card-text">
-                  <h2 class="title">Видання Limited Edition</h2>
-                  <p class="descr">Веб-сайт</p>
+                <div class="project-card__text">
+                  <h2 class="project-card__title">Видання Limited Edition</h2>
+                  <p class="project-card__descr">Веб-сайт</p>
                 </div>
               </a>
             </li>
 
-            <li class="project-item">
-              <a href="" class="link">
-                <div class="overlay-box">
+            <li class="project-card">
+              <a href="" class="project-card__link">
+                <div class="project-card__overlay-box">
                   <img src="./images/pf-img-8.jpg" alt="ярлик" width="370" height="294" />
-                  <div class="overlay">
-                    <p class="overlay-text">
+                  <div class="project-card__overlay">
+                    <p class="project-card__overlay-text">
                       Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
                       Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
                       приватну особу.
@@ -233,19 +231,19 @@
                   </div>
                 </div>
 
-                <div class="card-text">
-                  <h2 class="title">Проєкт LAB</h2>
-                  <p class="descr">Маркетинг</p>
+                <div class="project-card__text">
+                  <h2 class="project-card__title">Проєкт LAB</h2>
+                  <p class="project-card__descr">Маркетинг</p>
                 </div>
               </a>
             </li>
 
-            <li class="project-item">
-              <a href="" class="link">
-                <div class="overlay-box">
+            <li class="project-card">
+              <a href="" class="project-card__link">
+                <div class="project-card__overlay-box">
                   <img src="./images/pf-img-9.jpg" alt="ноутбук" width="370" height="294" />
-                  <div class="overlay">
-                    <p class="overlay-text">
+                  <div class="project-card__overlay">
+                    <p class="project-card__overlay-text">
                       Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
                       Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
                       приватну особу.
@@ -253,9 +251,9 @@
                   </div>
                 </div>
 
-                <div class="card-text">
-                  <h2 class="title">Growing Business</h2>
-                  <p class="descr">Додаток</p>
+                <div class="project-card__text">
+                  <h2 class="project-card__title">Growing Business</h2>
+                  <p class="project-card__descr">Додаток</p>
                 </div>
               </a>
             </li>
