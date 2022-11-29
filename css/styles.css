@@ -464,7 +464,7 @@ img {
 
 /* оформлення footer */
 /* загальне */
-/* .footer {
+.footer {
   padding-top: 60px;
   padding-bottom: 60px;
 
@@ -484,20 +484,20 @@ img {
   align-items: baseline;
   justify-content: space-between;
   
-} */
+}
 
 /* логотип футер */
-/* .logo--light {
+.logo--light {
   color: var(--primary-bg-color);
-} */
+} 
 
-/* .logo__footer {
+.logo__footer {
   margin-bottom: 20px;
   display: block;
-} */
+}
 
 /* контакти */
-/* .contacts {
+.contacts {
   color: var(--contacts-footer);
 
   font-style: normal;
@@ -525,10 +525,10 @@ img {
 
   font-size: 14px;
   line-height: 1.71;
-} */
+}
 
 /* оформлення соціальних мереж */
-/* .social-block {
+.social-block {
   display: block;
   width: 206px;
 }
@@ -551,10 +551,10 @@ img {
 
 .socials__link--bright {
   color: var(--icons-social-secondary);
-} */
+}
 
 /* форма підписки */
-/* .subscrubing {
+.subscrubing {
   display: flex;
 }
 
@@ -601,9 +601,9 @@ img {
 
   transform: translateY(-50%);
   transition: transform, color, var(--anim-dur) var(--anim-function);
-} */
+}
 
-/* .button--icon-right {
+.button--icon-right {
 display: flex;
 align-items: center;
 padding: 10px 28px;
@@ -627,7 +627,7 @@ padding: 10px 28px;
 .button--icon-right:hover,
 .button--icon-right:focus {
   background-color: var(--accent-secondary-color);
-} */
+}
 /* модальне вікно */
 .backdrop {
   position: fixed;
@@ -885,7 +885,7 @@ padding: 10px 28px;
 
 .filter__button:hover,
 .filter__button:focus,
-.filter__button.current {
+.filter__button--current {
   color: var(--primary-bg-color);
   background-color: var(--accent-primary-color);
 
@@ -910,7 +910,7 @@ padding: 10px 28px;
 }
 
 /* карточка проекту */
-.project-card {
+ .project-card {
   position: relative;
   cursor: pointer;
 
@@ -993,4 +993,4 @@ padding: 10px 28px;
   padding: 20px;
 
   text-align: left;
-}
+} 

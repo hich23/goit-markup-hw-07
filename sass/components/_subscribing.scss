@@ -1,4 +1,4 @@
-// Part 14
+// Part 13
 
 .subscrubing {
     display: flex;
@@ -39,7 +39,8 @@
     color: rgba(255, 255, 255, 0.3);
 
     transform: translateY(-50%);
-    transition: transform, color, $anim-dur $anim-function;
+    transition: transform $anim-dur $anim-function,
+    color $anim-dur $anim-function;
 }
 
 .subscrubing__field:focus-within .subscrubing__label,
@@ -47,7 +48,8 @@
     cursor: default;
     color: $icons-social-secondary;
     transform: translateX(-150%) translateY(-50%);
-    transition: transform, color, $anim-dur $anim-function;
+    transition: transform $anim-dur $anim-function,
+    color $anim-dur $anim-function;
 }
 
 

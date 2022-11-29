@@ -1,59 +1,42 @@
-// нормалізатор
-@import './utils/_normalize.scss';
-
-// змінні
+// Utilits
+@import './utils/_normalize.scss';// змінні
 @import './utils/variables.scss';
-
-// базові стилі
-@import './base/base';
-
-// Приховані елементи
 @import './utils/visually-hidden';
 
-// 1 Хедер
+// Base styles
+@import './base/base';
+
+// Components styles
+//  Header
 // ================================================
 @import './components/header';
-
-// 2 Логотип
 @import './components/logo';
-
-// 3 Навігація
 @import './components/navigation';
 // =================================================
 
-// 4 Секція Hero
+// Sections
 @import './components/hero-section';
-
-// 5 Секція Переваги
 @import './components/features-section';
-
-// 6 Секція Чим ми займаємося
 @import './components/services-section';
-
-// 7 Секція Наша команда
 // ================================================
 @import './components/team-section';
-
-// 8 Картка працівника
 @import './components/employee-card';
-
-// 9 Соціальні мережі
 @import './components/socials';
 // ================================================
-
-// 10 Секція Постійні клієнти
 @import './components/clients-section';
 
-// 11 Футер
+// Footer
 // ================================================
 @import './components/footer';
-//  Блок соціальних мереж - паршл 9, позиціонування тут
-
-// 12 Контакти
 @import './components/contacts';
-
-// 14 Вікно підписки
 @import './components/subscribing';
-
-// 15 Кнопка з іконкою
 @import './components/button-icon-right';
+
+// Modal
+@import './components/modal';
+
+// Portfolio
+// ================================================
+@import './components/filter';
+@import './components/projects-section';
+@import './components/project-card'
