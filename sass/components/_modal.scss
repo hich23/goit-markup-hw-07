@@ -214,7 +214,7 @@
   width: 15.5px;
   height: 2px;
   background: #000;
-
+      transition: background-color $anim-dur $anim-function;
   &:hover {
     background: $accent-primary-color;
   }
