@@ -8,6 +8,7 @@
   background-color: rgba(0, 0, 0, 0.2);
   opacity: 1;
   transition: opacity $anim-dur $anim-function;
+  z-index: 1;
 }
 
 .backdrop.is-hidden .modal {
@@ -64,6 +65,7 @@
   letter-spacing: 1%;
   color: $main-text-color;
   margin-bottom: 4px;
+
 }
 
 .input-field {
@@ -107,6 +109,7 @@
   left: 12px;
   transform: translateY(-50%);
   transition: fill $anim-dur $anim-function;
+  color: $title-text-color;
 }
 
 .input-field:focus-within .form-input,
@@ -211,6 +214,10 @@
   width: 15.5px;
   height: 2px;
   background: #000;
+
+  &:hover {
+    background: $accent-primary-color;
+  }
 }
 
 .modal-btn::before {
@@ -223,5 +230,9 @@
 
 .modal-btn:hover,
 .modal-btn:active {
-  border: 1px solid #000000;
+
+  &.modal-btn::before,
+    &.modal-btn::after {
+        background: $accent-primary-color;
+      }
 }
